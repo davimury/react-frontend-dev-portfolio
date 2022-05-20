@@ -1,9 +1,10 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Olá",
+      "resumeText": "Baixar Curriculo",
+      "description": "👋 Eu sou Davi Mury. Sempre gostei de tecnologia, comecei a programar ainda criança, principalmente desenvolvendo mods para jogos, hoje tenho experiência em diversas áreas da tecnologia graças a essa curiosidade. Já trabalhei com Frontend, Backend e DevOps profissionalmente, pretendo continuar sempre em busca de novos desafios.",
       "section_name": {
-        "about": "O mnie",
+        "about": "Sobre Mim",
         "projects": "Projekty",
         "skills": "Umiejętności",
         "experience": "Doświadczenie"

@@ -173,6 +173,7 @@ header h1 {
 .polaroid img {
 	display: block;
 	max-width: 200px;
+	object-fit: cover;
 }
 
 .polaroid span {
@@ -425,4 +426,38 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+.button {
+    --text: #fff;
+    --icon: #fff;
+    --icon-success: #16BF78;
+    display: flex;
+    outline: none;
+    border: 0;
+    padding: 0 0 0 24px;
+    min-width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 9px;
+    background: var(--background);
+    transition: transform .2s;
+    &:active {
+        transform: scale(.95);
+    }
+	#icon{
+		fill: var(--text);
+		padding: 13px 5px 0px 5px;
+		max-width: 30px;
+	}
+    .text {
+        margin: 0;
+        padding: 10px 0;
+        list-style: none;
+        text-align: center;
+        position: relative;
+        backface-visibility: hidden;
+        font-size: 15px;
+        color: var(--text);
+    }
 }
